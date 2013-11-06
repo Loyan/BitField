@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
   BitField b1;
   BitField b2(255);
   BitField b3=b2;
-  b2.show(); 
+  b2.show();
   system("PAUSE");
   return EXIT_SUCCESS;
 }
