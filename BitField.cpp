@@ -26,6 +26,15 @@ class BitField
   char getBit (int bitNumber);
 };
 
+long BitField::getData()
+        {
+             return data;
+        }
+        void BitField::setData(long newData)
+        {
+          data=newData;
+        }
+
 // test the dev branch
 
 char BitField::getBit (int bitNumber)
